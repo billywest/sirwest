@@ -1,0 +1,23 @@
+.App-logo {
+  /* height: 40vmin; */
+  width: 100%;
+  max-width: 720px;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(160deg, rgb(68, 46, 120), rgb(55, 36, 99));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 0 1rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
