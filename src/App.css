@@ -4,6 +4,7 @@
 
 .App-logo {
   height: 40vmin;
+  max-width: 100%;
   pointer-events: none;
 }
 
@@ -17,8 +18,38 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 0 1rem;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 20px auto;
+  list-style: none;
+}
+
+.App-social li {
+  margin: 0 1rem;
+}
+
+.App-social li a {
+  display: block;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  line-height: 30px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+}
+
+.App-social li a:hover {
+  background-color: #fff;
+  color: rgb(55, 36, 99);
 }
