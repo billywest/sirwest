@@ -1,7 +1,32 @@
+:root {
+  --primary-dark: rgb(55, 36, 99);
+}
 .navbar {
-  background: rgb(68, 46, 120);
+  background: var(--primary-dark);
 }
 
 .navbar-logo {
   max-height: 70px;
+}
+
+.navbar-dark {
+  .navbar-nav {
+    .nav-link.resume-link {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 5px;
+      padding-right: 0.75rem;
+      padding-left: 0.75rem;
+      margin: 0 0.75rem;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.95);
+        color: rgb(68, 46, 120);
+      }
+    }
+
+    .Icon {
+      color: rgba(255, 255, 255, 0.5);
+      padding: 0 5px;
+    }
+  }
 }
