@@ -27,3 +27,12 @@ $grid-gutter-width: 30px !default;
 
 /* import bootstrap to set changes */
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.navbar {
+  .navbar-nav {
+    .nav-link {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+}

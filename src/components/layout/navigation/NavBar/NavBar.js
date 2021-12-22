@@ -42,8 +42,12 @@ const NavBar = () => {
               </NavDropdown>
             </Nav>
             <Nav>
+              <Nav.Link href="/">646.334.5758</Nav.Link>
+              <Nav.Link href="/" className="resume-link">
+                Resume
+              </Nav.Link>
               <Navbar.Text>
-                <Link to="/">
+                <Link to="https://www.linkedin.com/in/billywestjm/">
                   <Icon className="Icon" size={24} icon={linkedin} />
                 </Link>
                 <Link to="/">
@@ -53,9 +57,6 @@ const NavBar = () => {
                   <Icon className="Icon" size={24} icon={envelopeO} />
                 </Link>
               </Navbar.Text>
-              <Nav.Link href="/" className="resume-link">
-                Resume
-              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -1,10 +1,12 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Header from "../components/layout/header/Header";
 
 const Home = () => {
   return (
     <div>
-      <Header />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Header />
+      </Suspense>
     </div>
   );
 };
